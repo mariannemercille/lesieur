@@ -21,6 +21,7 @@ body{
 
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    
 
 }
 
@@ -117,6 +118,7 @@ COMPONENTS
 
     padding: 20px;
     margin-bottom: 60px;
+    margin-top: 80px;
     
 
 }
@@ -124,6 +126,7 @@ COMPONENTS
 .transports{
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
 }
 
 .conteneur-transports{
@@ -131,3 +134,50 @@ COMPONENTS
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
+
+
+
+.transports p{
+    margin-top: 5px;
+}
+
+.menu-social a{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-social{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.facebook a:hover{
+    background-color: #1877f2;
+}
+
+.twitter a:hover{
+    background-color: #1da1f2;
+}
+
+.linkedin a:hover{
+    background-color: #0a66c2;
+}
+
+/* AIDE STYLISTIQUE*/
+.conteneur-transports-invisible{
+    display: none;
+}
+
