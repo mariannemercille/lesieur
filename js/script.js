@@ -1,9 +1,9 @@
-const btPlus=document.querySelector('js-plus');
-const conteneur = document.querySelector('.conteneur-transports');
+const btPlus=document.querySelector(' .js_plus');
+const conteneur_transports = document.querySelector('.conteneur-transports');
 
 btPlus.addEventListener('click', fouvreferme);
 
 function fouvreferme(){
-    conteneur.classList.toggle('conteneur-transport-invisible');
-};
+    conteneur_transports.classList.toggle('conteneur-transports-invisible');
+}
 
